@@ -1,6 +1,6 @@
 import React from "react";
 
-import style from "src/App/App.module.css";
+import style from "src/Popup/App/App.module.css";
 
 export function App() {
   return (
