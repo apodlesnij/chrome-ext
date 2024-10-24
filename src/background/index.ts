@@ -1,4 +1,4 @@
-import { Background } from "src/background/Background";
+import { Background } from 'src/background/Background';
 
 const background = new Background();
 
