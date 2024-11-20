@@ -8,6 +8,7 @@ export default defineManifest({
   action: {
     default_popup: 'popup.html',
   },
+  options_page: "options.html",
   background: {
     service_worker: 'src/background/index.ts',
     type: 'module',
