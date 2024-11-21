@@ -1,0 +1,8 @@
+.isColumn {
+  flex-direction: column;
+}
+
+.root {
+  display: flex;
+  gap: 8px;
+}

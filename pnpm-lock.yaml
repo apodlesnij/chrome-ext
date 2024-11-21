@@ -11,6 +11,9 @@ importers:
       '@types/node':
         specifier: ^22.7.5
         version: 22.7.5
+      classnames:
+        specifier: ^2.5.1
+        version: 2.5.1
       fs-extra:
         specifier: ^11.2.0
         version: 11.2.0
@@ -677,6 +680,9 @@ packages:
   cheerio@1.0.0:
     resolution: {integrity: sha512-quS9HgjQpdaXOvsZz82Oz7uxtXiy6UIsIQcpBj7HRw2M63Skasm9qlDocAM7jNuaxdhpPU7c4kJN+gA5MCu4ww==}
     engines: {node: '>=18.17'}
+
+  classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
 
   color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -2564,6 +2570,8 @@ snapshots:
       parse5-parser-stream: 7.1.2
       undici: 6.20.0
       whatwg-mimetype: 4.0.0
+
+  classnames@2.5.1: {}
 
   color-convert@1.9.3:
     dependencies:

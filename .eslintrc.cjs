@@ -38,6 +38,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'class-methods-use-this': 'off',
     'react/jsx-filename-extension': 'off',
+    'react/require-default-props': 'off',
+    'react/jsx-no-bind': 'off',
     'import/no-extraneous-dependencies': ['off'],
   },
   overrides: [
