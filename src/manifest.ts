@@ -19,4 +19,5 @@ export default defineManifest({
       js: ['src/ContentScript/index.tsx'],
     },
   ],
+  permissions: ['tabs'],
 });
